@@ -1,0 +1,17 @@
+body { font-family: Arial,sans-serif; background:#f3f5f7; margin:0; padding:0; }
+header { background:#004b6b; color:white; padding:20px; text-align:center; font-size:24px; font-weight:bold; }
+.search-box { margin:25px auto; width:80%; display:flex; justify-content:center; }
+.search-box input { width:70%; padding:12px; font-size:18px; border:2px solid #004b6b; border-radius:8px; }
+#wordBox { width:85%; margin:0 auto; }
+.card { background:white; padding:20px; border-radius:12px; margin-bottom:25px; box-shadow:0 2px 5px rgba(0,0,0,0.2); }
+.card h2 { margin:0; font-size:30px; text-align:center; color:#004b6b; }
+.table { margin-top:20px; display:grid; grid-template-columns: repeat(7, 1fr); gap:10px; }
+.box { padding:15px; text-align:center; border-radius:10px; background:#e8f1f8; font-size:20px; border:2px solid #bcd3e6; }
+.box-title { font-size:14px; margin-bottom:5px; color:#00364a; }
+
+/* 📱 Mobil ekran için */
+@media (max-width: 600px) {
+    .table {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

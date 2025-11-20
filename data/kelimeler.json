@@ -1,0 +1,1420 @@
+[
+  {
+    "kelime": "كَتَبَ",
+    "turkce": "yazdı",
+    "mazi": "كَتَبَ",
+    "muzari": "يَكْتُبُ",
+    "masdar": "كِتَابَةٌ",
+    "emir": "اُكْتُبْ",
+    "fail": "كَاتِبٌ",
+    "meful": "مَكْتُوبٌ"
+  },
+  {
+    "kelime": "قَرَأَ",
+    "turkce": "okudu",
+    "mazi": "قَرَأَ",
+    "muzari": "يَقْرَأُ",
+    "masdar": "قِرَاءَةٌ",
+    "emir": "اِقْرَأْ",
+    "fail": "قَارِئٌ",
+    "meful": "مَقْرُوءٌ"
+  },
+  {
+    "kelime": "جَلَسَ",
+    "turkce": "oturdu",
+    "mazi": "جَلَسَ",
+    "muzari": "يَجْلِسُ",
+    "masdar": "جُلُوسٌ",
+    "emir": "اِجْلِسْ",
+    "fail": "جَالِسٌ",
+    "meful": "مَجْلُوسٌ"
+  },
+  {
+    "kelime": "قَامَ",
+    "turkce": "kalktı",
+    "mazi": "قَامَ",
+    "muzari": "يَقُومُ",
+    "masdar": "قِيَامٌ",
+    "emir": "قُمْ",
+    "fail": "قَائِمٌ",
+    "meful": "مَقُومٌ"
+  },
+  {
+    "kelime": "نَامَ",
+    "turkce": "uyudu",
+    "mazi": "نَامَ",
+    "muzari": "يَنَامُ",
+    "masdar": "نَوْمٌ",
+    "emir": "نَمْ",
+    "fail": "نَائِمٌ",
+    "meful": "مَنُومٌ"
+  },
+  {
+    "kelime": "فَتَحَ",
+    "turkce": "açtı",
+    "mazi": "فَتَحَ",
+    "muzari": "يَفْتَحُ",
+    "masdar": "فَتْحٌ",
+    "emir": "اِفْتَحْ",
+    "fail": "فَاتِحٌ",
+    "meful": "مَفْتُوحٌ"
+  },
+  {
+    "kelime": "خَرَجَ",
+    "turkce": "çıktı",
+    "mazi": "خَرَجَ",
+    "muzari": "يَخْرُجُ",
+    "masdar": "خُرُوجٌ",
+    "emir": "اُخْرُجْ",
+    "fail": "خَارِجٌ",
+    "meful": "مَخْرُوجٌ"
+  },
+  {
+    "kelime": "دَخَلَ",
+    "turkce": "girdi",
+    "mazi": "دَخَلَ",
+    "muzari": "يَدْخُلُ",
+    "masdar": "دُخُولٌ",
+    "emir": "اُدْخُلْ",
+    "fail": "دَاخِلٌ",
+    "meful": "مَدْخُولٌ"
+  },
+  {
+    "kelime": "سَمِعَ",
+    "turkce": "duydu",
+    "mazi": "سَمِعَ",
+    "muzari": "يَسْمَعُ",
+    "masdar": "سَمَاعٌ",
+    "emir": "اِسْمَعْ",
+    "fail": "سَامِعٌ",
+    "meful": "مَسْمُوعٌ"
+  },
+  {
+    "kelime": "قَالَ",
+    "turkce": "söyledi",
+    "mazi": "قَالَ",
+    "muzari": "يَقُولُ",
+    "masdar": "قَوْلٌ",
+    "emir": "قُلْ",
+    "fail": "قَائِلٌ",
+    "meful": "مَقُولٌ"
+  },
+  {
+    "kelime": "عَادَ",
+    "turkce": "geri döndü",
+    "mazi": "عَادَ",
+    "muzari": "يَعُودُ",
+    "masdar": "عَوْدٌ",
+    "emir": "عُدْ",
+    "fail": "عَائِدٌ",
+    "meful": "مَعُودٌ"
+  },
+  {
+    "kelime": "ذَهَبَ",
+    "turkce": "gitti",
+    "mazi": "ذَهَبَ",
+    "muzari": "يَذْهَبُ",
+    "masdar": "ذَهَابٌ",
+    "emir": "اِذْهَبْ",
+    "fail": "ذَاهِبٌ",
+    "meful": "مَذْهُوبٌ"
+  },
+  {
+    "kelime": "رَجَعَ",
+    "turkce": "geri geldi",
+    "mazi": "رَجَعَ",
+    "muzari": "يَرْجِعُ",
+    "masdar": "رُجُوعٌ",
+    "emir": "اِرْجِعْ",
+    "fail": "رَاجِعٌ",
+    "meful": "مَرْجُوعٌ"
+  },
+  {
+    "kelime": "فَعَلَ",
+    "turkce": "yaptı",
+    "mazi": "فَعَلَ",
+    "muzari": "يَفْعَلُ",
+    "masdar": "فِعْلٌ",
+    "emir": "اِفْعَلْ",
+    "fail": "فَاعِلٌ",
+    "meful": "مَفْعُولٌ"
+  },
+  {
+    "kelime": "عَلِمَ",
+    "turkce": "bildi",
+    "mazi": "عَلِمَ",
+    "muzari": "يَعْلَمُ",
+    "masdar": "عِلْمٌ",
+    "emir": "اِعْلَمْ",
+    "fail": "عَالِمٌ",
+    "meful": "مَعْلُومٌ"
+  },
+  {
+    "kelime": "فَهِمَ",
+    "turkce": "anladı",
+    "mazi": "فَهِمَ",
+    "muzari": "يَفْهَمُ",
+    "masdar": "فَهْمٌ",
+    "emir": "اِفْهَمْ",
+    "fail": "فَاهِمٌ",
+    "meful": "مَفْهُومٌ"
+  },
+  {
+    "kelime": "حَفِظَ",
+    "turkce": "ezberledi, korudu",
+    "mazi": "حَفِظَ",
+    "muzari": "يَحْفَظُ",
+    "masdar": "حِفْظٌ",
+    "emir": "اِحْفَظْ",
+    "fail": "حَافِظٌ",
+    "meful": "مَحْفُوظٌ"
+  },
+  {
+    "kelime": "دَرَسَ",
+    "turkce": "ders çalıştı",
+    "mazi": "دَرَسَ",
+    "muzari": "يَدْرُسُ",
+    "masdar": "دِرَاسَةٌ",
+    "emir": "اُدْرُسْ",
+    "fail": "دَارِسٌ",
+    "meful": "مَدْرُوسٌ"
+  },
+  {
+    "kelime": "رَسَمَ",
+    "turkce": "resim çizdi",
+    "mazi": "رَسَمَ",
+    "muzari": "يَرْسُمُ",
+    "masdar": "رَسْمٌ",
+    "emir": "اِرْسُمْ",
+    "fail": "رَاسِمٌ",
+    "meful": "مَرْسُومٌ"
+  },
+  {
+    "kelime": "طَبَخَ",
+    "turkce": "yemek pişirdi",
+    "mazi": "طَبَخَ",
+    "muzari": "يَطْبُخُ",
+    "masdar": "طَبْخٌ",
+    "emir": "اُطْبُخْ",
+    "fail": "طَابِخٌ",
+    "meful": "مَطْبُوخٌ"
+  },
+
+  {
+    "kelime": "غَسَلَ",
+    "turkce": "yıkadı",
+    "mazi": "غَسَلَ",
+    "muzari": "يَغْسِلُ",
+    "masdar": "غَسْلٌ",
+    "emir": "اِغْسِلْ",
+    "fail": "غَاسِلٌ",
+    "meful": "مَغْسُولٌ"
+  },
+  {
+    "kelime": "شَرِبَ",
+    "turkce": "içti",
+    "mazi": "شَرِبَ",
+    "muzari": "يَشْرَبُ",
+    "masdar": "شُرْبٌ",
+    "emir": "اِشْرَبْ",
+    "fail": "شَارِبٌ",
+    "meful": "مَشْرُوبٌ"
+  },
+  {
+    "kelime": "أَكَلَ",
+    "turkce": "yedi",
+    "mazi": "أَكَلَ",
+    "muzari": "يَأْكُلُ",
+    "masdar": "أَكْلٌ",
+    "emir": "كُلْ",
+    "fail": "آكِلٌ",
+    "meful": "مَأْكُولٌ"
+  },
+  {
+    "kelime": "مَشَى",
+    "turkce": "yürüdü",
+    "mazi": "مَشَى",
+    "muzari": "يَمْشِي",
+    "masdar": "مَشْيٌ",
+    "emir": "اِمْشِ",
+    "fail": "مَاشٍ",
+    "meful": "مَمْشِيٌّ"
+  },
+  {
+    "kelime": "سَعَى",
+    "turkce": "çabaladı",
+    "mazi": "سَعَى",
+    "muzari": "يَسْعَى",
+    "masdar": "سَعْيٌ",
+    "emir": "اِسْعَ",
+    "fail": "سَاعٍ",
+    "meful": "مَسْعِيٌّ"
+  },
+
+  {
+    "kelime": "نَظَرَ",
+    "turkce": "baktı",
+    "mazi": "نَظَرَ",
+    "muzari": "يَنْظُرُ",
+    "masdar": "نَظَرٌ",
+    "emir": "اُنْظُرْ",
+    "fail": "نَاظِرٌ",
+    "meful": "مَنْظُورٌ"
+  },
+  {
+    "kelime": "سَكَنَ",
+    "turkce": "ikamet etti",
+    "mazi": "سَكَنَ",
+    "muzari": "يَسْكُنُ",
+    "masdar": "سُكُونٌ",
+    "emir": "اُسْكُنْ",
+    "fail": "سَاكِنٌ",
+    "meful": "مَسْكُونٌ"
+  },
+  {
+    "kelime": "لَعِبَ",
+    "turkce": "oynadı",
+    "mazi": "لَعِبَ",
+    "muzari": "يَلْعَبُ",
+    "masdar": "لَعِبٌ",
+    "emir": "اِلْعَبْ",
+    "fail": "لَاعِبٌ",
+    "meful": "مَلْعُوبٌ"
+  },
+  {
+    "kelime": "رَكِبَ",
+    "turkce": "bindi",
+    "mazi": "رَكِبَ",
+    "muzari": "يَرْكَبُ",
+    "masdar": "رُكُوبٌ",
+    "emir": "اِرْكَبْ",
+    "fail": "رَاكِبٌ",
+    "meful": "مَرْكُوبٌ"
+  },
+  {
+    "kelime": "ضَرَبَ",
+    "turkce": "vurdu",
+    "mazi": "ضَرَبَ",
+    "muzari": "يَضْرِبُ",
+    "masdar": "ضَرْبٌ",
+    "emir": "اِضْرِبْ",
+    "fail": "ضَارِبٌ",
+    "meful": "مَضْرُوبٌ"
+  },
+
+  {
+    "kelime": "قَتَلَ",
+    "turkce": "öldürdü",
+    "mazi": "قَتَلَ",
+    "muzari": "يَقْتُلُ",
+    "masdar": "قَتْلٌ",
+    "emir": "اُقْتُلْ",
+    "fail": "قَاتِلٌ",
+    "meful": "مَقْتُولٌ"
+  },
+  {
+    "kelime": "سَجَدَ",
+    "turkce": "secde etti",
+    "mazi": "سَجَدَ",
+    "muzari": "يَسْجُدُ",
+    "masdar": "سُجُودٌ",
+    "emir": "اُسْجُدْ",
+    "fail": "سَاجِدٌ",
+    "meful": "مَسْجُودٌ"
+  },
+  {
+    "kelime": "رَكَعَ",
+    "turkce": "rükû etti",
+    "mazi": "رَكَعَ",
+    "muzari": "يَرْكَعُ",
+    "masdar": "رُكُوعٌ",
+    "emir": "اِرْكَعْ",
+    "fail": "رَاكِعٌ",
+    "meful": "مَرْكُوعٌ"
+  },
+  {
+    "kelime": "سَبَّحَ",
+    "turkce": "tesbih etti",
+    "mazi": "سَبَّحَ",
+    "muzari": "يُسَبِّحُ",
+    "masdar": "تَسْبِيحٌ",
+    "emir": "سَبِّحْ",
+    "fail": "مُسَبِّحٌ",
+    "meful": "مُسَبَّحٌ"
+  },
+  {
+    "kelime": "صَنَعَ",
+    "turkce": "yaptı, üretti",
+    "mazi": "صَنَعَ",
+    "muzari": "يَصْنَعُ",
+    "masdar": "صَنْعٌ",
+    "emir": "اِصْنَعْ",
+    "fail": "صَانِعٌ",
+    "meful": "مَصْنُوعٌ"
+  },
+
+  {
+    "kelime": "عَبَدَ",
+    "turkce": "ibadet etti",
+    "mazi": "عَبَدَ",
+    "muzari": "يَعْبُدُ",
+    "masdar": "عِبَادَةٌ",
+    "emir": "اُعْبُدْ",
+    "fail": "عَابِدٌ",
+    "meful": "مَعْبُودٌ"
+  },
+
+  {
+    "kelime": "أَمَرَ",
+    "turkce": "emretti",
+    "mazi": "أَمَرَ",
+    "muzari": "يَأْمُرُ",
+    "masdar": "أَمْرٌ",
+    "emir": "مُرْ",
+    "fail": "آمِرٌ",
+    "meful": "مَأْمُورٌ"
+  },
+  {
+    "kelime": "دَعَا",
+    "turkce": "dua etti, çağırdı",
+    "mazi": "دَعَا",
+    "muzari": "يَدْعُو",
+    "masdar": "دُعَاءٌ",
+    "emir": "اُدْعُ",
+    "fail": "دَاعٍ",
+    "meful": "مَدْعُوٌّ"
+  },
+  {
+    "kelime": "بَكَى",
+    "turkce": "ağladı",
+    "mazi": "بَكَى",
+    "muzari": "يَبْكِي",
+    "masdar": "بُكَاءٌ",
+    "emir": "اِبْكِ",
+    "fail": "بَاكٍ",
+    "meful": "مَبْكِيٌّ"
+  },
+  {
+    "kelime": "ضَحِكَ",
+    "turkce": "güldü",
+    "mazi": "ضَحِكَ",
+    "muzari": "يَضْحَكُ",
+    "masdar": "ضَحِكٌ",
+    "emir": "اِضْحَكْ",
+    "fail": "ضَاحِكٌ",
+    "meful": "مَضْحُوكٌ"
+  },
+  {
+    "kelime": "سَأَلَ",
+    "turkce": "sordu",
+    "mazi": "سَأَلَ",
+    "muzari": "يَسْأَلُ",
+    "masdar": "سُؤَالٌ",
+    "emir": "اِسْأَلْ",
+    "fail": "سَائِلٌ",
+    "meful": "مَسْؤُولٌ"
+  },
+
+  {
+    "kelime": "وَجَدَ",
+    "turkce": "buldu",
+    "mazi": "وَجَدَ",
+    "muzari": "يَجِدُ",
+    "masdar": "وُجُودٌ",
+    "emir": "جِدْ",
+    "fail": "وَاجِدٌ",
+    "meful": "مَوْجُودٌ"
+  },
+  {
+    "kelime": "فَقَدَ",
+    "turkce": "kaybetti",
+    "mazi": "فَقَدَ",
+    "muzari": "يَفْقِدُ",
+    "masdar": "فَقْدٌ",
+    "emir": "اِفْقِدْ",
+    "fail": "فَاقِدٌ",
+    "meful": "مَفْقُودٌ"
+  },
+  {
+    "kelime": "تَرَكَ",
+    "turkce": "terk etti",
+    "mazi": "تَرَكَ",
+    "muzari": "يَتْرُكُ",
+    "masdar": "تَرْكٌ",
+    "emir": "اُتْرُكْ",
+    "fail": "تَارِكٌ",
+    "meful": "مَتْرُوكٌ"
+  },
+  {
+    "kelime": "أَخَذَ",
+    "turkce": "aldı",
+    "mazi": "أَخَذَ",
+    "muzari": "يَأْخُذُ",
+    "masdar": "أَخْذٌ",
+    "emir": "خُذْ",
+    "fail": "آخِذٌ",
+    "meful": "مَأْخُوذٌ"
+  },
+
+  {
+    "kelime": "نَصَرَ",
+    "turkce": "yardım etti",
+    "mazi": "نَصَرَ",
+    "muzari": "يَنْصُرُ",
+    "masdar": "نَصْرٌ",
+    "emir": "اُنْصُرْ",
+    "fail": "نَاصِرٌ",
+    "meful": "مَنْصُورٌ"
+  },
+
+  {
+    "kelime": "كَسَرَ",
+    "turkce": "kırdı",
+    "mazi": "كَسَرَ",
+    "muzari": "يَكْسِرُ",
+    "masdar": "كَسْرٌ",
+    "emir": "اِكْسِرْ",
+    "fail": "كَاسِرٌ",
+    "meful": "مَكْسُورٌ"
+  },
+  {
+    "kelime": "زَرَعَ",
+    "turkce": "ekti",
+    "mazi": "زَرَعَ",
+    "muzari": "يَزْرَعُ",
+    "masdar": "زِرَاعَةٌ",
+    "emir": "اِزْرَعْ",
+    "fail": "زَارِعٌ",
+    "meful": "مَزْرُوعٌ"
+  },
+  {
+    "kelime": "جَمَعَ",
+    "turkce": "topladı",
+    "mazi": "جَمَعَ",
+    "muzari": "يَجْمَعُ",
+    "masdar": "جَمْعٌ",
+    "emir": "اِجْمَعْ",
+    "fail": "جَامِعٌ",
+    "meful": "مَجْمُوعٌ"
+  },
+  {
+    "kelime": "نَفَعَ",
+    "turkce": "fayda verdi",
+    "mazi": "نَفَعَ",
+    "muzari": "يَنْفَعُ",
+    "masdar": "نَفْعٌ",
+    "emir": "اِنْفَعْ",
+    "fail": "نَافِعٌ",
+    "meful": "مَنْفُوعٌ"
+  },
+  {
+    "kelime": "ضرَّ",
+    "turkce": "zarar verdi",
+    "mazi": "ضَرَّ",
+    "muzari": "يَضُرُّ",
+    "masdar": "ضَرَرٌ",
+    "emir": "ضُرَّ",
+    "fail": "ضَارٌّ",
+    "meful": "مَضْرُورٌ"
+  },
+  {
+    "kelime": "هربَ",
+    "turkce": "kaçtı",
+    "mazi": "هَرَبَ",
+    "muzari": "يَهْرُبُ",
+    "masdar": "هَرَبٌ",
+    "emir": "اهْرُبْ",
+    "fail": "هَارِبٌ",
+    "meful": "مَهْرُوبٌ"
+  },
+  {
+    "kelime": "دفعَ",
+    "turkce": "itti / ödedi",
+    "mazi": "دَفَعَ",
+    "muzari": "يَدْفَعُ",
+    "masdar": "دَفْعٌ",
+    "emir": "ادْفَعْ",
+    "fail": "دَافِعٌ",
+    "meful": "مَدْفُوعٌ"
+  },
+  {
+    "kelime": "رفعَ",
+    "turkce": "kaldırdı",
+    "mazi": "رَفَعَ",
+    "muzari": "يَرْفَعُ",
+    "masdar": "رَفْعٌ",
+    "emir": "ارْفَعْ",
+    "fail": "رَافِعٌ",
+    "meful": "مَرْفُوعٌ"
+  },
+  {
+    "kelime": "هبطَ",
+    "turkce": "indi",
+    "mazi": "هَبَطَ",
+    "muzari": "يَهْبِطُ",
+    "masdar": "هُبُوطٌ",
+    "emir": "اهْبِطْ",
+    "fail": "هَابِطٌ",
+    "meful": "مَهْبُوطٌ"
+  },
+  {
+    "kelime": "صعدَ",
+    "turkce": "çıktı",
+    "mazi": "صَعِدَ",
+    "muzari": "يَصْعَدُ",
+    "masdar": "صُعُودٌ",
+    "emir": "اصْعَدْ",
+    "fail": "صَاعِدٌ",
+    "meful": "مَصْعُودٌ"
+  },
+  {
+    "kelime": "سارَ",
+    "turkce": "yürüdü",
+    "mazi": "سَارَ",
+    "muzari": "يَسِيرُ",
+    "masdar": "سَيْرٌ",
+    "emir": "سِرْ",
+    "fail": "سَائِرٌ",
+    "meful": "مَسِيرٌ"
+  },
+  {
+    "kelime": "سترَ",
+    "turkce": "örtü",
+    "mazi": "سَتَرَ",
+    "muzari": "يَسْتُرُ",
+    "masdar": "سَتْرٌ",
+    "emir": "اسْتُرْ",
+    "fail": "سَاتِرٌ",
+    "meful": "مَسْتُورٌ"
+  },
+  {
+    "kelime": "وعدَ",
+    "turkce": "söz verdi",
+    "mazi": "وَعَدَ",
+    "muzari": "يَعِدُ",
+    "masdar": "وَعْدٌ",
+    "emir": "عِدْ",
+    "fail": "وَاعِدٌ",
+    "meful": "مَوْعُودٌ"
+  },
+  {
+    "kelime": "جرى",
+    "turkce": "koştu / aktı",
+    "mazi": "جَرَى",
+    "muzari": "يَجْرِي",
+    "masdar": "جَرْيٌ",
+    "emir": "اجْرِ",
+    "fail": "جَارٍ",
+    "meful": "مَجْرِيٌّ"
+  },
+  {
+    "kelime": "وقفَ",
+    "turkce": "durdu",
+    "mazi": "وَقَفَ",
+    "muzari": "يَقِفُ",
+    "masdar": "وُقُوفٌ",
+    "emir": "قِفْ",
+    "fail": "وَاقِفٌ",
+    "meful": "مَوْقُوفٌ"
+  },
+  {
+    "kelime": "حملَ",
+    "turkce": "taşıdı",
+    "mazi": "حَمَلَ",
+    "muzari": "يَحْمِلُ",
+    "masdar": "حَمْلٌ",
+    "emir": "احْمِلْ",
+    "fail": "حَامِلٌ",
+    "meful": "مَحْمُولٌ"
+  },
+  {
+    "kelime": "منعَ",
+    "turkce": "engelledi",
+    "mazi": "مَنَعَ",
+    "muzari": "يَمْنَعُ",
+    "masdar": "مَنْعٌ",
+    "emir": "امْنَعْ",
+    "fail": "مَانِعٌ",
+    "meful": "مَمْنُوعٌ"
+  },
+  {
+    "kelime": "رمى",
+    "turkce": "attı",
+    "mazi": "رَمَى",
+    "muzari": "يَرْمِي",
+    "masdar": "رَمْيٌ",
+    "emir": "ارْمِ",
+    "fail": "رَامٍ",
+    "meful": "مَرْمِيٌّ"
+  },
+  {
+    "kelime": "نشرَ",
+    "turkce": "yaydı",
+    "mazi": "نَشَرَ",
+    "muzari": "يَنْشُرُ",
+    "masdar": "نَشْرٌ",
+    "emir": "انْشُرْ",
+    "fail": "نَاشِرٌ",
+    "meful": "مَنْشُورٌ"
+  },
+  {
+    "kelime": "سكتَ",
+    "turkce": "sustu",
+    "mazi": "سَكَتَ",
+    "muzari": "يَسْكُتُ",
+    "masdar": "سُكُوتٌ",
+    "emir": "اسْكُتْ",
+    "fail": "سَاكِتٌ",
+    "meful": "مَسْكُوتٌ"
+  },
+  {
+    "kelime": "نطقَ",
+    "turkce": "konuştu",
+    "mazi": "نَطَقَ",
+    "muzari": "يَنْطِقُ",
+    "masdar": "نُطْقٌ",
+    "emir": "انْطِقْ",
+    "fail": "نَاطِقٌ",
+    "meful": "مَنْطُوقٌ"
+  },
+  {
+    "kelime": "محا",
+    "turkce": "sildi",
+    "mazi": "مَحَا",
+    "muzari": "يَمْحُو",
+    "masdar": "مَحْوٌ",
+    "emir": "امْحُ",
+    "fail": "مَاحٍ",
+    "meful": "مَمْحُوٌّ"
+  },
+  {
+    "kelime": "نقصَ",
+    "turkce": "azaldı / eksildi",
+    "mazi": "نَقَصَ",
+    "muzari": "يَنْقُصُ",
+    "masdar": "نُقْصَانٌ",
+    "emir": "انْقُصْ",
+    "fail": "نَاقِصٌ",
+    "meful": "مَنْقُوصٌ"
+  },
+  {
+    "kelime": "زادَ",
+    "turkce": "arttı",
+    "mazi": "زَادَ",
+    "muzari": "يَزِيدُ",
+    "masdar": "زِيَادَةٌ",
+    "emir": "زِدْ",
+    "fail": "زَائِدٌ",
+    "meful": "مَزِيدٌ"
+  },
+  {
+    "kelime": "ربحَ",
+    "turkce": "kazandı",
+    "mazi": "رَبِحَ",
+    "muzari": "يَرْبَحُ",
+    "masdar": "رِبْحٌ",
+    "emir": "ارْبَحْ",
+    "fail": "رَابِحٌ",
+    "meful": "مَرْبُوحٌ"
+  },
+  {
+    "kelime": "خسرَ",
+    "turkce": "kaybetti",
+    "mazi": "خَسِرَ",
+    "muzari": "يَخْسَرُ",
+    "masdar": "خُسْرَانٌ",
+    "emir": "اخْسَرْ",
+    "fail": "خَاسِرٌ",
+    "meful": "مَخْسُورٌ"
+  },
+  {
+    "kelime": "عرفَ",
+    "turkce": "bildi / tanıdı",
+    "mazi": "عَرَفَ",
+    "muzari": "يَعْرِفُ",
+    "masdar": "مَعْرِفَةٌ",
+    "emir": "اعْرِفْ",
+    "fail": "عَارِفٌ",
+    "meful": "مَعْرُوفٌ"
+  },
+  {
+    "kelime": "جهلَ",
+    "turkce": "bilmedi",
+    "mazi": "جَهِلَ",
+    "muzari": "يَجْهَلُ",
+    "masdar": "جَهْلٌ",
+    "emir": "اجْهَلْ",
+    "fail": "جَاهِلٌ",
+    "meful": "مَجْهُولٌ"
+  },
+  {
+    "kelime": "فرحَ",
+    "turkce": "sevindi",
+    "mazi": "فَرِحَ",
+    "muzari": "يَفْرَحُ",
+    "masdar": "فَرَحٌ",
+    "emir": "افْرَحْ",
+    "fail": "فَارِحٌ",
+    "meful": "مَفْرُوحٌ"
+  },
+  {
+    "kelime": "غضبَ",
+    "turkce": "kızdı",
+    "mazi": "غَضِبَ",
+    "muzari": "يَغْضَبُ",
+    "masdar": "غَضَبٌ",
+    "emir": "اغْضَبْ",
+    "fail": "غَاضِبٌ",
+    "meful": "مَغْضُوبٌ"
+  },
+  {
+    "kelime": "رضيَ",
+    "turkce": "razı oldu",
+    "mazi": "رَضِيَ",
+    "muzari": "يَرْضَى",
+    "masdar": "رِضًا",
+    "emir": "ارْضَ",
+    "fail": "رَاضٍ",
+    "meful": "مَرْضِيٌّ"
+  },
+  {
+    "kelime": "سقطَ",
+    "turkce": "düştü",
+    "mazi": "سَقَطَ",
+    "muzari": "يَسْقُطُ",
+    "masdar": "سُقُوطٌ",
+    "emir": "اسْقُطْ",
+    "fail": "سَاقِطٌ",
+    "meful": "مَسْقُوطٌ"
+  },
+  {
+    "kelime": "رقصَ",
+    "turkce": "dans etti",
+    "mazi": "رَقَصَ",
+    "muzari": "يَرْقُصُ",
+    "masdar": "رَقْصٌ",
+    "emir": "ارْقُصْ",
+    "fail": "رَاقِصٌ",
+    "meful": "مَرْقُوصٌ"
+  },
+  {
+    "kelime": "فازَ",
+    "turkce": "kazandı",
+    "mazi": "فَازَ",
+    "muzari": "يَفُوزُ",
+    "masdar": "فَوْزٌ",
+    "emir": "فُزْ",
+    "fail": "فَائِزٌ",
+    "meful": "مَفُوزٌ"
+  },
+  {
+    "kelime": "خافَ",
+    "turkce": "korktu",
+    "mazi": "خَافَ",
+    "muzari": "يَخَافُ",
+    "masdar": "خَوْفٌ",
+    "emir": "خَفْ",
+    "fail": "خَائِفٌ",
+    "meful": "مَخُوفٌ"
+  },
+  {
+    "kelime": "أمنَ",
+    "turkce": "emin oldu / güvende oldu",
+    "mazi": "أَمِنَ",
+    "muzari": "يَأْمَنُ",
+    "masdar": "أَمْنٌ",
+    "emir": "ائْمَنْ",
+    "fail": "آمِنٌ",
+    "meful": "مَأْمُونٌ"
+  },
+  {
+    "kelime": "كرهَ",
+    "turkce": "nefret etti",
+    "mazi": "كَرِهَ",
+    "muzari": "يَكْرَهُ",
+    "masdar": "كَرَاهِيَةٌ",
+    "emir": "اكْرَهْ",
+    "fail": "كَارِهٌ",
+    "meful": "مَكْرُوهٌ"
+  },
+  {
+    "kelime": "شكرَ",
+    "turkce": "şükretti",
+    "mazi": "شَكَرَ",
+    "muzari": "يَشْكُرُ",
+    "masdar": "شُكْرٌ",
+    "emir": "اشْكُرْ",
+    "fail": "شَاكِرٌ",
+    "meful": "مَشْكُورٌ"
+  },
+  {
+    "kelime": "مدحَ",
+    "turkce": "övdü",
+    "mazi": "مَدَحَ",
+    "muzari": "يَمْدَحُ",
+    "masdar": "مَدْحٌ",
+    "emir": "امْدَحْ",
+    "fail": "مَادِحٌ",
+    "meful": "مَمْدُوحٌ"
+  },
+  {
+    "kelime": "ذمَّ",
+    "turkce": "yerdı / kötüledi",
+    "mazi": "ذَمَّ",
+    "muzari": "يَذُمُّ",
+    "masdar": "ذَمٌّ",
+    "emir": "ذُمَّ",
+    "fail": "ذَامٌّ",
+    "meful": "مَذْمُومٌ"
+  },
+  {
+    "kelime": "هلكَ",
+    "turkce": "helak oldu",
+    "mazi": "هَلَكَ",
+    "muzari": "يَهْلِكُ",
+    "masdar": "هَلَاكٌ",
+    "emir": "اهْلِكْ",
+    "fail": "هَالِكٌ",
+    "meful": "مَهْلُوكٌ"
+  },
+  {
+    "kelime": "عاشَ",
+    "turkce": "yaşadı",
+    "mazi": "عَاشَ",
+    "muzari": "يَعِيشُ",
+    "masdar": "عَيْشٌ",
+    "emir": "عِشْ",
+    "fail": "عَائِشٌ",
+    "meful": "مَعِيشٌ"
+  },
+  {
+    "kelime": "ماتَ",
+    "turkce": "öldü",
+    "mazi": "مَاتَ",
+    "muzari": "يَمُوتُ",
+    "masdar": "مَوْتٌ",
+    "emir": "مُتْ",
+    "fail": "مَائِتٌ",
+    "meful": "مَمِيتٌ"
+  },
+  {
+    "kelime": "وُلِدَ",
+    "turkce": "doğdu",
+    "mazi": "وُلِدَ",
+    "muzari": "يُولَدُ",
+    "masdar": "وِلادَةٌ",
+    "emir": "—",
+    "fail": "مَوْلُودٌ",
+    "meful": "مَوْلُودٌ"
+  },
+  {
+    "kelime": "صحا",
+    "turkce": "uyandı",
+    "mazi": "صَحَا",
+    "muzari": "يَصْحُو",
+    "masdar": "صَحْوٌ",
+    "emir": "اصْحُ",
+    "fail": "صَاحٍ",
+    "meful": "مَصْحُوٌّ"
+  },
+  {
+    "kelime": "نسي",
+    "turkce": "unuttu",
+    "mazi": "نَسِيَ",
+    "muzari": "يَنْسَى",
+    "masdar": "نِسْيَانٌ",
+    "emir": "انْسَ",
+    "fail": "نَاسٍ",
+    "meful": "مَنْسِيٌّ"
+  },
+  {
+    "kelime": "خانَ",
+    "turkce": "ihanet etti",
+    "mazi": "خَانَ",
+    "muzari": "يَخُونُ",
+    "masdar": "خِيَانَةٌ",
+    "emir": "خُنْ",
+    "fail": "خَائِنٌ",
+    "meful": "مَخُونٌ"
+  },
+  {
+    "kelime": "صدقَ",
+    "turkce": "doğru söyledi",
+    "mazi": "صَدَقَ",
+    "muzari": "يَصْدُقُ",
+    "masdar": "صِدْقٌ",
+    "emir": "اصْدُقْ",
+    "fail": "صَادِقٌ",
+    "meful": "مَصْدُوقٌ"
+  },
+  {
+    "kelime": "كذبَ",
+    "turkce": "yalan söyledi",
+    "mazi": "كَذَبَ",
+    "muzari": "يَكْذِبُ",
+    "masdar": "كَذِبٌ",
+    "emir": "اكْذِبْ",
+    "fail": "كَاذِبٌ",
+    "meful": "مَكْذُوبٌ"
+  },
+  {
+    "kelime": "عدلَ",
+    "turkce": "adil davrandı",
+    "mazi": "عَدَلَ",
+    "muzari": "يَعْدِلُ",
+    "masdar": "عَدْلٌ",
+    "emir": "اعْدِلْ",
+    "fail": "عَادِلٌ",
+    "meful": "مَعْدُولٌ"
+  },
+  {
+    "kelime": "ظلمَ",
+    "turkce": "zülmetti",
+    "mazi": "ظَلَمَ",
+    "muzari": "يَظْلِمُ",
+    "masdar": "ظُلْمٌ",
+    "emir": "اظْلِمْ",
+    "fail": "ظَالِمٌ",
+    "meful": "مَظْلُومٌ"
+  },
+  {
+    "kelime": "مسحَ",
+    "turkce": "sildi / mesh etti",
+    "mazi": "مَسَحَ",
+    "muzari": "يَمْسَحُ",
+    "masdar": "مَسْحٌ",
+    "emir": "امْسَحْ",
+    "fail": "مَاسِحٌ",
+    "meful": "مَمْسُوحٌ"
+  },
+  {
+    "kelime": "كبُرَ",
+    "turkce": "büyüdü",
+    "mazi": "كَبُرَ",
+    "muzari": "يَكْبُرُ",
+    "masdar": "كِبَرٌ",
+    "emir": "اكْبُرْ",
+    "fail": "كَابِرٌ",
+    "meful": "مَكْبُورٌ"
+  },
+  {
+    "kelime": "صغُرَ",
+    "turkce": "küçüldü",
+    "mazi": "صَغُرَ",
+    "muzari": "يَصْغُرُ",
+    "masdar": "صِغَرٌ",
+    "emir": "اصْغُرْ",
+    "fail": "صَاغِرٌ",
+    "meful": "مَصْغُورٌ"
+  },
+  {
+    "kelime": "حسنَ",
+    "turkce": "güzelleşti",
+    "mazi": "حَسُنَ",
+    "muzari": "يَحْسُنُ",
+    "masdar": "حُسْنٌ",
+    "emir": "احْسُنْ",
+    "fail": "حَسَنٌ",
+    "meful": "مُحْسَنٌ"
+  },
+  {
+    "kelime": "قبحَ",
+    "turkce": "çirkinleşti",
+    "mazi": "قَبُحَ",
+    "muzari": "يَقْبُحُ",
+    "masdar": "قُبْحٌ",
+    "emir": "اقْبُحْ",
+    "fail": "قَابِحٌ",
+    "meful": "مَقْبُوحٌ"
+  },
+  {
+    "kelime": "طلعَ",
+    "turkce": "doğdu",
+    "mazi": "طَلَعَ",
+    "muzari": "يَطْلُعُ",
+    "masdar": "طُلُوعٌ",
+    "emir": "اطْلُعْ",
+    "fail": "طَالِعٌ",
+    "meful": "مَطْلُوعٌ"
+  },
+  {
+    "kelime": "غربَ",
+    "turkce": "battı",
+    "mazi": "غَرَبَ",
+    "muzari": "يَغْرُبُ",
+    "masdar": "غُرُوبٌ",
+    "emir": "اغْرُبْ",
+    "fail": "غَارِبٌ",
+    "meful": "مَغْرُوبٌ"
+  },
+  {
+    "kelime": "لمعَ",
+    "turkce": "parladı",
+    "mazi": "لَمَعَ",
+    "muzari": "يَلْمَعُ",
+    "masdar": "لَمْعٌ",
+    "emir": "الْمَعْ",
+    "fail": "لَامِعٌ",
+    "meful": "مَلْمُوعٌ"
+  },
+  {
+    "kelime": "بردَ",
+    "turkce": "soğudu",
+    "mazi": "بَرَدَ",
+    "muzari": "يَبْرُدُ",
+    "masdar": "بُرُودَةٌ",
+    "emir": "ابْرُدْ",
+    "fail": "بَارِدٌ",
+    "meful": "مَبْرُودٌ"
+  },
+  {
+    "kelime": "صمتَ",
+    "turkce": "sessiz oldu",
+    "mazi": "صَمَتَ",
+    "muzari": "يَصْمُتُ",
+    "masdar": "صَمْتٌ",
+    "emir": "اصْمُتْ",
+    "fail": "صَامِتٌ",
+    "meful": "مَصْمُوتٌ"
+  },
+  {
+    "kelime": "صرخَ",
+    "turkce": "bağırdı",
+    "mazi": "صَرَخَ",
+    "muzari": "يَصْرُخُ",
+    "masdar": "صُرَاخٌ",
+    "emir": "اصْرُخْ",
+    "fail": "صَارِخٌ",
+    "meful": "مَصْرُوخٌ"
+  },
+  {
+    "kelime": "هتف",
+    "türkce": "bağırdı / seslendi",
+    "mazi": "هَتَفَ",
+    "muzari": "يَهْتِفُ",
+    "masdar": "هُتَافٌ",
+    "fail": "هَاتِفٌ",
+    "meful": "مَهْتُوفٌ",
+    "emir": "اِهْتِفْ"
+  },
+  {
+    "kelime": "غرز",
+    "türkce": "sapladı, soktu",
+    "mazi": "غَرَزَ",
+    "muzari": "يَغْرِزُ",
+    "masdar": "غَرْزٌ",
+    "fail": "غَارِزٌ",
+    "meful": "مَغْرُوزٌ",
+    "emir": "اِغْرِزْ"
+  },
+  {
+    "kelime": "حكّ",
+    "türkce": "kaşıdı",
+    "mazi": "حَكَّ",
+    "muzari": "يَحُكُّ",
+    "masdar": "حَكٌّ",
+    "fail": "حَاكٌّ",
+    "meful": "مَحْكُوكٌ",
+    "emir": "حُكَّ"
+  },
+  {
+    "kelime": "عصر",
+    "türkce": "sıktı",
+    "mazi": "عَصَرَ",
+    "muzari": "يَعْصِرُ",
+    "masdar": "عَصْرٌ",
+    "fail": "عَاصِرٌ",
+    "meful": "مَعْصُورٌ",
+    "emir": "اِعْصِرْ"
+  },
+  {
+    "kelime": "نفخ",
+    "türkce": "üfledi",
+    "mazi": "نَفَخَ",
+    "muzari": "يَنْفُخُ",
+    "masdar": "نَفْخٌ",
+    "fail": "نَافِخٌ",
+    "meful": "مَنْفُوخٌ",
+    "emir": "اِنْفُخْ"
+  },
+  {
+    "kelime": "صفر",
+    "türkce": "ıslık çaldı",
+    "mazi": "صَفَرَ",
+    "muzari": "يَصْفِرُ",
+    "masdar": "صَفِيرٌ",
+    "fail": "صَافِرٌ",
+    "meful": "مَصْفُورٌ",
+    "emir": "اِصْفِرْ"
+  },
+  {
+    "kelime": "رعى",
+    "türkce": "güttü",
+    "mazi": "رَعَى",
+    "muzari": "يَرْعَى",
+    "masdar": "رَعْيٌ",
+    "fail": "رَاعٍ",
+    "meful": "مَرْعِيٌّ",
+    "emir": "اِرْعَ"
+  },
+  {
+    "kelime": "حفر",
+    "türkce": "kazdı",
+    "mazi": "حَفَرَ",
+    "muzari": "يَحْفِرُ",
+    "masdar": "حَفْرٌ",
+    "fail": "حَافِرٌ",
+    "meful": "مَحْفُورٌ",
+    "emir": "اِحْفِرْ"
+  },
+  {
+    "kelime": "خمد",
+    "türkce": "söndü",
+    "mazi": "خَمَدَ",
+    "muzari": "يَخْمُدُ",
+    "masdar": "خُمُودٌ",
+    "fail": "خَامِدٌ",
+    "meful": "مَخْمُودٌ",
+    "emir": "اِخْمُدْ"
+  },
+  {
+    "kelime": "شقّ",
+    "türkce": "yardı",
+    "mazi": "شَقَّ",
+    "muzari": "يَشُقُّ",
+    "masdar": "شَقٌّ",
+    "fail": "شَاقٌّ",
+    "meful": "مَشْقُوقٌ",
+    "emir": "شُقَّ"
+  },
+  {
+    "kelime": "خاض",
+    "türkce": "daldı / içine girdi",
+    "mazi": "خَاضَ",
+    "muzari": "يَخُوضُ",
+    "masdar": "خَوْضٌ",
+    "fail": "خَائِضٌ",
+    "meful": "مَخُوضٌ",
+    "emir": "خُضْ"
+  },
+  {
+    "kelime": "خطب",
+    "türkce": "hutbe verdi / konuştu",
+    "mazi": "خَطَبَ",
+    "muzari": "يَخْطُبُ",
+    "masdar": "خُطْبَةٌ",
+    "fail": "خَاطِبٌ",
+    "meful": "مَخْطُوبٌ",
+    "emir": "اُخْطُبْ"
+  },
+  {
+    "kelime": "قرض",
+    "türkce": "kemirdi / ısırdı",
+    "mazi": "قَرَضَ",
+    "muzari": "يَقْرِضُ",
+    "masdar": "قَرْضٌ",
+    "fail": "قَارِضٌ",
+    "meful": "مَقْرُوضٌ",
+    "emir": "اِقْرِضْ"
+  },
+  {
+    "kelime": "حرق",
+    "türkce": "yaktı",
+    "mazi": "حَرَقَ",
+    "muzari": "يَحْرِقُ",
+    "masdar": "حَرْقٌ",
+    "fail": "حَارِقٌ",
+    "meful": "مَحْرُوقٌ",
+    "emir": "اِحْرِقْ"
+  },
+  {
+    "kelime": "لسع",
+    "türkce": "soktu (arı vb.)",
+    "mazi": "لَسَعَ",
+    "muzari": "يَلْسَعُ",
+    "masdar": "لَسْعٌ",
+    "fail": "لاسِعٌ",
+    "meful": "مَلْسُوعٌ",
+    "emir": "اِلْسَعْ"
+  },
+  {
+    "kelime": "نهق",
+    "türkce": "eşek anırdı",
+    "mazi": "نَهَقَ",
+    "muzari": "يَنْهَقُ",
+    "masdar": "نَهِيقٌ",
+    "fail": "نَاهِقٌ",
+    "meful": "مَنْهُوقٌ",
+    "emir": "اِنْهَقْ"
+  },
+  {
+    "kelime": "طاف",
+    "türkce": "tavaf etti / dolaştı",
+    "mazi": "طَافَ",
+    "muzari": "يَطُوفُ",
+    "masdar": "طَوَافٌ",
+    "fail": "طَائِفٌ",
+    "meful": "مَطُوفٌ",
+    "emir": "طُفْ"
+  },
+  {
+    "kelime": "ناح",
+    "türkce": "ağladı, inledi",
+    "mazi": "نَاحَ",
+    "muzari": "يَنُوحُ",
+    "masdar": "نَوْحٌ",
+    "fail": "نَائِحٌ",
+    "meful": "مَنْوُوحٌ",
+    "emir": "نُحْ"
+  },
+  {
+    "kelime": "رمق",
+    "türkce": "göz ucuyla baktı",
+    "mazi": "رَمَقَ",
+    "muzari": "يَرْمُقُ",
+    "masdar": "رَمْقٌ",
+    "fail": "رَامِقٌ",
+    "meful": "مَرْمُوقٌ",
+    "emir": "اِرْمُقْ"
+  },
+  {
+    "kelime": "خبط",
+    "türkce": "vurmak / çarpmak",
+    "mazi": "خَبَطَ",
+    "muzari": "يَخْبِطُ",
+    "masdar": "خَبْطٌ",
+    "fail": "خَابِطٌ",
+    "meful": "مَخْبُوطٌ",
+    "emir": "اِخْبِطْ"
+  },
+  {
+    "kelime": "فتل",
+    "türkce": "bükmek",
+    "mazi": "فَتَلَ",
+    "muzari": "يَفْتِلُ",
+    "masdar": "فَتْلٌ",
+    "fail": "فَاتِلٌ",
+    "meful": "مَفْتُولٌ",
+    "emir": "اِفْتِلْ"
+  },
+  {
+    "kelime": "خلط",
+    "türkce": "karıştırdı",
+    "mazi": "خَلَطَ",
+    "muzari": "يَخْلِطُ",
+    "masdar": "خَلْطٌ",
+    "fail": "خَالِطٌ",
+    "meful": "مَخْلُوطٌ",
+    "emir": "اِخْلِطْ"
+  },
+  {
+    "kelime": "جنى",
+    "türkce": "topladı",
+    "mazi": "جَنَى",
+    "muzari": "يَجْنِي",
+    "masdar": "جَنْيٌ",
+    "fail": "جَانٍ",
+    "meful": "مَجْنِيٌّ",
+    "emir": "اِجْنِ"
+  },
+  {
+    "kelime": "حمى",
+    "türkce": "korudu",
+    "mazi": "حَمَى",
+    "muzari": "يَحْمِي",
+    "masdar": "حِمَايَةٌ",
+    "fail": "حَامٍ",
+    "meful": "مَحْمِيٌّ",
+    "emir": "اِحْمِ"
+  },
+  {
+    "kelime": "جثا",
+    "türkce": "çömeldi / diz çöktü",
+    "mazi": "جَثَا",
+    "muzari": "يَجْثُو",
+    "masdar": "جُثُوٌّ",
+    "fail": "جَاثٍ",
+    "meful": "مَجْثُوٌّ",
+    "emir": "اِجْثُ"
+  },
+  {
+    "kelime": "سحب",
+    "türkce": "çekti",
+    "mazi": "سَحَبَ",
+    "muzari": "يَسْحَبُ",
+    "masdar": "سَحْبٌ",
+    "fail": "سَاحِبٌ",
+    "meful": "مَسْحُوبٌ",
+    "emir": "اِسْحَبْ"
+  },
+  {
+    "kelime": "قطر",
+    "türkce": "damlattı",
+    "mazi": "قَطَرَ",
+    "muzari": "يَقْطُرُ",
+    "masdar": "قَطْرٌ",
+    "fail": "قَاطِرٌ",
+    "meful": "مَقْطُورٌ",
+    "emir": "اُقْطُرْ"
+  },
+  {
+    "kelime": "غرس",
+    "türkce": "dikti (ağaç vb.)",
+    "mazi": "غَرَسَ",
+    "muzari": "يَغْرِسُ",
+    "masdar": "غَرْسٌ",
+    "fail": "غَارِسٌ",
+    "meful": "مَغْرُوسٌ",
+    "emir": "اِغْرِسْ"
+  },
+  {
+    "kelime": "جرف",
+    "türkce": "kazıdı / aşındırdı",
+    "mazi": "جَرَفَ",
+    "muzari": "يَجْرِفُ",
+    "masdar": "جَرْفٌ",
+    "fail": "جَارِفٌ",
+    "meful": "مَجْرُوفٌ",
+    "emir": "اِجْرِفْ"
+  },
+  {
+    "kelime": "خزن",
+    "türkce": "sakladı / depoladı",
+    "mazi": "خَزَنَ",
+    "muzari": "يَخْزِنُ",
+    "masdar": "خَزْنٌ",
+    "fail": "خَازِنٌ",
+    "meful": "مَخْزُونٌ",
+    "emir": "اِخْزِنْ"
+  },
+  {
+    "kelime": "ندم",
+    "türkce": "pişman oldu",
+    "mazi": "نَدِمَ",
+    "muzari": "يَنْدَمُ",
+    "masdar": "نَدَمٌ",
+    "fail": "نَادِمٌ",
+    "meful": "مَنْدُومٌ",
+    "emir": "اِنْدَمْ"
+  },
+  {
+    "kelime": "حلق",
+    "türkce": "tıraş etti / kesti",
+    "mazi": "حَلَقَ",
+    "muzari": "يَحْلِقُ",
+    "masdar": "حَلْقٌ",
+    "fail": "حَالِقٌ",
+    "meful": "مَحْلُوقٌ",
+    "emir": "اِحْلِقْ"
+  },
+  {
+    "kelime": "وخز",
+    "türkce": "iğneledi / batırdı",
+    "mazi": "وَخَزَ",
+    "muzari": "يَخِزُ",
+    "masdar": "وَخْزٌ",
+    "fail": "وَاخِزٌ",
+    "meful": "مَوْخُوزٌ",
+    "emir": "اِوخِزْ"
+  }
+]

@@ -1,31 +1,77 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SarfLab</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SarfLab</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 
-<!-- Favicon / Tarayıcı ikonu -->
-<link rel="icon" href="icon-32x32.png" sizes="32x32" type="image/png">
+    <!-- Favicon / Tarayıcı ikonu -->
+    <link rel="icon" href="icon-32x32.png" sizes="32x32" type="image/png">
 
-<!-- Apple iOS için ana ekran ikonu -->
-<link rel="apple-touch-icon" href="icon-180x180.png">
+    <!-- Apple iOS için ana ekran ikonu -->
+    <link rel="apple-touch-icon" href="icon-180x180.png">
 
-<!-- Android / PWA için manifest -->
-<link rel="manifest" href="manifest.json">
-
+    <!-- Android / PWA için manifest -->
+    <link rel="manifest" href="manifest.json">
 </head>
 <body>
 
+<!-- ===== Splash Screen ===== -->
+<div id="splash">
+    <div class="splash-content">
+        <h1>SarfLab</h1>
+    </div>
+</div>
+
 <header>SarfLab</header>
 
+<!-- Arama kutusu -->
 <div class="search-box">
     <input type="text" id="searchInput" placeholder="Kelime yaz (örn: كَتَبَ , قَرَأَ , فَتَحَ)">
 </div>
 
 <div id="wordBox"></div>
 
+<!-- PWA Yükleme Butonu -->
+<button id="installBtn" style="
+  padding: 12px 20px;
+  background:#004b6b;
+  color:white;
+  border:none;
+  border-radius:10px;
+  font-size:18px;
+  display:none;
+">
+  Uygulamayı İndir
+</button>
+
+<!-- Scriptler -->
 <script src="script.js"></script>
+<script>
+    // SERVICE WORKER KAYDI
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("service-worker.js")
+        .then(() => console.log("SW kayıt edildi"));
+    }
+
+    let installEvent;
+    const btn = document.getElementById("installBtn");
+
+    // Tarayıcı PWA'yı yükleyebileceğini anlayınca tetikler
+    window.addEventListener("beforeinstallprompt", e => {
+      e.preventDefault();
+      installEvent = e;
+      btn.style.display = "block"; // Butonu göster
+    });
+
+    // Butona basınca yükleme ekranı açılır
+    btn.addEventListener("click", () => {
+      btn.style.display = "none";
+      installEvent.prompt();
+    });
+</script>
 </body>
 </html>

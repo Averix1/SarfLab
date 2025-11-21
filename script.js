@@ -41,3 +41,14 @@ function display(list) {
         `;
     });
 }
+
+// ===== Splash Screen =====
+window.addEventListener("load", () => {
+    const splash = document.getElementById("splash");
+
+    // 3 saniye sonra kaybolsun
+    setTimeout(() => {
+        splash.classList.add("fade-out");
+        setTimeout(() => splash.style.display = "none", 800);
+    }, 3000);
+});

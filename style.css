@@ -1,67 +1,132 @@
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SarfLab Emsile</title>
-
-<!-- CSS -->
-<link rel="stylesheet" href="style.css">
-
-<link rel="icon" href="icon-32x32.png" sizes="32x32" type="image/png">
-<link rel="apple-touch-icon" href="icon-180x180.png">
-<link rel="manifest" href="manifest.json">
-</head>
-<body>
-
-<!-- ===== Splash Screen ===== -->
-<div id="splash">
-    <div class="splash-content">
-        <span id="sarf">SarfLab</span>
-        <span id="emsile">Emsile</span>
-    </div>
-</div>
-
-<header>SarfLab Emsile</header>
-
-<div class="search-box">
-    <input type="text" id="searchInput" placeholder="Kelime yaz (örn: كَتَبَ , قَرَأَ , فَتَحَ)">
-</div>
-
-<div id="wordBox"></div>
-
-<button id="installBtn" style="
-  padding: 12px 20px;
-  background:#004b6b;
-  color:white;
-  border:none;
-  border-radius:10px;
-  font-size:18px;
-  display:none;
-">
-  Uygulamayı İndir
-</button>
-
-<script src="script.js"></script>
-<script>
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("service-worker.js")
-    .then(() => console.log("SW kayıt edildi"));
+body { 
+    font-family: Arial, sans-serif; 
+    background:#f3f5f7; 
+    margin:0; 
+    padding:0; 
 }
 
-let installEvent;
-const btn = document.getElementById("installBtn");
+header { 
+    background:#004b6b; 
+    color:white; 
+    padding:20px; 
+    text-align:center; 
+    font-size:24px; 
+    font-weight:bold; 
+}
 
-window.addEventListener("beforeinstallprompt", e => {
-  e.preventDefault();
-  installEvent = e;
-  btn.style.display = "block";
-});
+.search-box { 
+    margin:25px auto; 
+    width:80%; 
+    display:flex; 
+    justify-content:center; 
+}
 
-btn.addEventListener("click", () => {
-  btn.style.display = "none";
-  installEvent.prompt();
-});
-</script>
-</body>
-</html></html></html>
+.search-box input { 
+    width:70%; 
+    padding:12px; 
+    font-size:18px; 
+    border:2px solid #004b6b; 
+    border-radius:8px; 
+}
+
+#wordBox { 
+    width:85%; 
+    margin:0 auto; 
+}
+
+.card { 
+    background:white; 
+    padding:20px; 
+    border-radius:12px; 
+    margin-bottom:25px; 
+    box-shadow:0 2px 5px rgba(0,0,0,0.2); 
+}
+
+.card h2 { 
+    margin:0; 
+    font-size:30px; 
+    text-align:center; 
+    color:#004b6b; 
+}
+
+/* ===== Flexbox tablo ===== */
+.table { 
+    margin-top:20px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px;
+}
+
+.box { 
+    flex: 1 1 calc(14.28% - 10px); 
+    padding:15px; 
+    text-align:center; 
+    border-radius:10px; 
+    background:#e8f1f8; 
+    font-size:20px; 
+    border:2px solid #bcd3e6; 
+    display:flex; 
+    flex-direction:column; 
+    justify-content:flex-start; 
+    word-break: break-word; 
+}
+
+.box-title { 
+    font-size:14px; 
+    margin-bottom:5px; 
+    color:#00364a; 
+}
+
+/* ===== Mobil ekran ===== */
+@media (max-width: 600px) { 
+    .box {
+        flex: 1 1 48%; 
+    } 
+
+    /* Splash animasyon mobil uyum */
+    #splash .splash-content {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    #splash .splash-content span {
+        font-size: clamp(20px, 12vw, 48px); 
+        margin: 5px 0;
+    }
+}
+
+/* ===== Splash Screen ===== */
+#splash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    z-index: 9999;
+    color: #004b6b;
+}
+
+#splash .splash-content span {
+    font-size: 48px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 10px;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.fade-out {
+    animation: fadeOut 0.8s forwards;
+}
+
+@keyframes fadeOut { 
+    to { 
+        opacity: 0; 
+        visibility: hidden; 
+    } 
+}

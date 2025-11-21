@@ -27,7 +27,6 @@ function display(list) {
         <div class="card">
             <h2>${w.kelime}</h2>
             <div class="table">
-
                 <div class="box"><div class="box-title">Türkçe</div>${w.turkce}</div>
                 <div class="box"><div class="box-title">Mâzî</div>${w.mazi}</div>
                 <div class="box"><div class="box-title">Muzâri</div>${w.muzari}</div>
@@ -35,20 +34,32 @@ function display(list) {
                 <div class="box"><div class="box-title">Emir</div>${w.emir}</div>
                 <div class="box"><div class="box-title">İsm-i Fâil</div>${w.fail}</div>
                 <div class="box"><div class="box-title">İsm-i Mef'ûl</div>${w.meful}</div>
-
             </div>
         </div>
         `;
     });
 }
 
-// ===== Splash Screen =====
+// ===== Splash Animasyonu =====
 window.addEventListener("load", () => {
     const splash = document.getElementById("splash");
+    const sarf = document.getElementById("sarf");
+    const emsile = document.getElementById("emsile");
 
-    // 3 saniye sonra kaybolsun
+    // SarfLab sola kayıyor
+    setTimeout(() => {
+        sarf.style.transform = "translateX(-50px)";
+        sarf.style.opacity = 1;
+    }, 500);
+
+    // Emsile belirmeye başlıyor
+    setTimeout(() => {
+        emsile.style.opacity = 1;
+    }, 1500);
+
+    // Splash kayboluyor
     setTimeout(() => {
         splash.classList.add("fade-out");
         setTimeout(() => splash.style.display = "none", 800);
-    }, 3000);
+    }, 3500);
 });

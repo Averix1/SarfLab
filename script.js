@@ -46,18 +46,15 @@ window.addEventListener("load", () => {
     const sarf = document.getElementById("sarf");
     const emsile = document.getElementById("emsile");
 
-    // SarfLab sola kayıyor
     setTimeout(() => {
-        sarf.style.transform = "translateX(-50px)";
+        sarf.style.transform = "translateX(-10px)"; // Telefon ekranına göre az kaydırdım
         sarf.style.opacity = 1;
     }, 500);
 
-    // Emsile belirmeye başlıyor
     setTimeout(() => {
         emsile.style.opacity = 1;
     }, 1500);
 
-    // Splash kayboluyor
     setTimeout(() => {
         splash.classList.add("fade-out");
         setTimeout(() => splash.style.display = "none", 800);

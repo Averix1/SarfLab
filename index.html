@@ -46,7 +46,8 @@
 <script>
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("service-worker.js")
-    .then(() => console.log("SW kayıt edildi"));
+    .then(() => console.log("SW kayıt edildi"))
+    .catch(() => console.log("SW kaydı başarısız"));
 }
 
 let installEvent;
@@ -60,8 +61,8 @@ window.addEventListener("beforeinstallprompt", e => {
 
 btn.addEventListener("click", () => {
   btn.style.display = "none";
-  installEvent.prompt();
+  if (installEvent) installEvent.prompt();
 });
 </script>
 </body>
-</html></html></html>
+</html>

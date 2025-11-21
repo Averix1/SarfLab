@@ -1,19 +1,87 @@
-body { font-family: Arial,sans-serif; background:#f3f5f7; margin:0; padding:0; }
-header { background:#004b6b; color:white; padding:20px; text-align:center; font-size:24px; font-weight:bold; }
-.search-box { margin:25px auto; width:80%; display:flex; justify-content:center; }
-.search-box input { width:70%; padding:12px; font-size:18px; border:2px solid #004b6b; border-radius:8px; }
-#wordBox { width:85%; margin:0 auto; }
-.card { background:white; padding:20px; border-radius:12px; margin-bottom:25px; box-shadow:0 2px 5px rgba(0,0,0,0.2); }
-.card h2 { margin:0; font-size:30px; text-align:center; color:#004b6b; }
-.table { margin-top:20px; display:grid; grid-template-columns: repeat(7, 1fr); gap:10px; }
-.box { padding:15px; text-align:center; border-radius:10px; background:#e8f1f8; font-size:20px; border:2px solid #bcd3e6; }
-.box-title { font-size:14px; margin-bottom:5px; color:#00364a; }
+body { 
+    font-family: Arial,sans-serif; 
+    background:#f3f5f7; 
+    margin:0; 
+    padding:0; 
+}
 
-/* 📱 Mobil ekran için */
-@media (max-width: 600px) {
-    .table {
-        grid-template-columns: repeat(2, 1fr);
-    }
+header { 
+    background:#004b6b; 
+    color:white; 
+    padding:20px; 
+    text-align:center; 
+    font-size:24px; 
+    font-weight:bold; 
+}
+
+.search-box { 
+    margin:25px auto; 
+    width:80%; 
+    display:flex; 
+    justify-content:center; 
+}
+
+.search-box input { 
+    width:70%; 
+    padding:12px; 
+    font-size:18px; 
+    border:2px solid #004b6b; 
+    border-radius:8px; 
+}
+
+#wordBox { 
+    width:85%; 
+    margin:0 auto; 
+}
+
+.card { 
+    background:white; 
+    padding:20px; 
+    border-radius:12px; 
+    margin-bottom:25px; 
+    box-shadow:0 2px 5px rgba(0,0,0,0.2); 
+}
+
+.card h2 { 
+    margin:0; 
+    font-size:30px; 
+    text-align:center; 
+    color:#004b6b; 
+}
+
+/* ===== Flexbox tablo ===== */
+.table { 
+    margin-top:20px; 
+    display: flex; 
+    flex-wrap: wrap; /* satırlar otomatik oluşur */
+    gap: 10px;
+}
+
+.box { 
+    flex: 1 1 calc(14.28% - 10px); /* 7 kutu satır başına */
+    padding:15px; 
+    text-align:center; 
+    border-radius:10px; 
+    background:#e8f1f8; 
+    font-size:20px; 
+    border:2px solid #bcd3e6; 
+    display:flex; 
+    flex-direction:column; 
+    justify-content:flex-start; 
+    word-break: break-word; /* uzun kelimeler kutuyu taşırmaz */
+}
+
+.box-title { 
+    font-size:14px; 
+    margin-bottom:5px; 
+    color:#00364a; 
+}
+
+/* Mobil ekran */
+@media (max-width: 600px) { 
+    .box {
+        flex: 1 1 48%; /* 2 kutu yan yana mobilde */
+    } 
 }
 
 /* ===== Splash Screen ===== */
@@ -23,36 +91,31 @@ header { background:#004b6b; color:white; padding:20px; text-align:center; font-
     left: 0;
     width: 100%;
     height: 100%;
-    background: #f0f0f0; /* gri arka plan */
+    background: #f0f0f0;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     z-index: 9999;
-    color: #004b6b; /* yazı rengi */
+    color: #004b6b;
 }
 
-#splash .splash-content h1 {
+#splash .splash-content span {
     font-size: 48px;
     font-weight: bold;
+    display: inline-block;
+    margin: 0 10px;
     opacity: 0;
-    transform: scale(0.8);
-    animation: fadeInScale 1.5s forwards;
+    transition: all 1s ease;
 }
 
-/* Fade-in ve hafif büyüme animasyonu */
-@keyframes fadeInScale {
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-/* Splash kaybolma animasyonu */
 .fade-out {
     animation: fadeOut 0.8s forwards;
 }
 
-@keyframes fadeOut {
-    to { opacity: 0; visibility: hidden; }
+@keyframes fadeOut { 
+    to { 
+        opacity: 0; 
+        visibility: hidden; 
+    } 
 }
